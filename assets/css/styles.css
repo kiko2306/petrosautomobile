@@ -1,0 +1,111 @@
+@import './logo.css';
+
+@import './dealership.css';
+@import './and.css';
+@import './consulting.css';
+@import './itl.css';
+@import './dc-glow.css';
+@import './logo-hover.css';
+
+
+@font-face {
+    font-family: Monts;
+    src: url('../fonts/MontserratAlternates-Regular.otf') format("truetype");
+}
+
+html body {
+    cursor: url('../img/ck.png'), auto; 
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow: hidden;
+}
+
+#myVideo {
+    position: absolute;
+    opacity: 0.95;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.default-font-type {
+    font-family: Monts;
+}
+
+.img-center {
+    display: inline-block;
+    max-width: 80vw;
+    max-height: 80vh;
+}
+
+.top-header {
+    position: absolute;
+    top: 75px;
+}
+
+.top-header-btn {
+    text-decoration: none;
+    color: black;
+}
+
+.top-header-spacer {
+    margin-right: 75px;
+    background-color: blue;
+}
+
+.bottom-footer {
+    position: absolute;
+    bottom: 25px;
+}
+
+.sm {
+    height: 30px;
+    width: 30px;
+}
+
+#smartphone {
+    position: absolute;
+    bottom: 100px;
+    visibility: hidden;
+}
+
+#header-lnk {
+    text-align: end;
+    padding-right: 75px;
+}
+
+@media only screen and (max-width: 700px) {
+    .top-header-spacer {
+        margin-right: 0px;
+        background-color: red;
+    }
+
+    #smartphone {
+        visibility: visible;
+    }
+
+    #laptop {
+        visibility: hidden;
+    }
+
+    #header-lnk {
+        text-align: center;
+        padding-right: 0px;
+    }
+    
+}
+
+@media only screen and (max-height: 500px) { 
+    .top-header {
+        position: absolute;
+        top: 25px;
+    }
+
+    .bottom-footer {
+        position: absolute;
+        bottom: 10px;
+    }
+}
