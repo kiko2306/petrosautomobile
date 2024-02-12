@@ -1,6 +1,6 @@
-.itl {
-	-webkit-animation: itl 4s linear both;
-	        animation: itl 4s linear both;
+.dc-itl {
+	-webkit-animation: dc-itl 4s linear both;
+	        animation: dc-itl 4s linear both;
 }
 
 /* ----------------------------------------------
@@ -12,10 +12,10 @@
 
 /**
  * ----------------------------------------
- * animation itl
+ * animation dc-itl
  * ----------------------------------------
  */
- @-webkit-keyframes itl {
+ @-webkit-keyframes dc-itl {
     0% {
       opacity: 0;
     }
@@ -140,7 +140,7 @@
       text-shadow: 0 0 30px rgba(255,22,22, 0.6), 0 0 60px rgba(255,22,22, 0.45), 0 0 110px rgba(255,22,22, 0.25), 0 0 100px rgba(255,22,22, 0.1);
     }
   }
-  @keyframes itl {
+  @keyframes dc-itl {
     0% {
       opacity: 0;
     }

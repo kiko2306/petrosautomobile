@@ -3,7 +3,7 @@
 @import './dealership.css';
 @import './and.css';
 @import './consulting.css';
-@import './itl.css';
+@import './dc-itl.css';
 @import './dc-glow.css';
 @import './logo-hover.css';
 
@@ -14,7 +14,8 @@
 }
 
 html body {
-    cursor: url('../img/ck.png'), auto; 
+    /* TODO: get cursor */
+    /* cursor: url('../img/ck.png'), auto;  */
     width: 100vw;
     height: 100vh;
     margin: 0;
