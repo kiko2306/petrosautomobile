@@ -53,10 +53,10 @@ function changeVideoFeed() {
     videoTag.appendChild(source1);
 
     // setup mp4 type
-    // var source2 = document.getElementById('source2');
-    // source2.setAttribute('src', videoLst.src2);
-    // source2.setAttribute('type', 'video/mp4;codecs="avc1.42E01E, mp4a.40.2"');
-    // videoTag.appendChild(source2);
+    var source2 = document.getElementById('source2');
+    source2.setAttribute('src', videoLst.src2);
+    source2.setAttribute('type', 'video/mp4;codecs="avc1.42E01E, mp4a.40.2"');
+    videoTag.appendChild(source2);
 
     // play video
     videoTag.pause();
