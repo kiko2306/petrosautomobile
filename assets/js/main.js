@@ -15,10 +15,13 @@ const list = {
         { src1: './assets/video/car/C11.webm', src2: './assets/video/car/C11.mp4', length: 6 },
     ],
     roadLst : [
-        { src1: './assets/video/road/R1.webm', src2: './assets/video/road/R1.mp4', length: 9 },
-        { src1: './assets/video/road/R2.webm', src2: './assets/video/road/R2.mp4', length: 11 },
+        { src1: './assets/video/road/R1.webm', src2: './assets/video/road/R1.mp4', length: 26 },
+        { src1: './assets/video/road/R2.webm', src2: './assets/video/road/R2.mp4', length: 13 },
     ]
 }
+
+var selectedLstIndex = Math.round(Math.random());
+var listToPlay = selectedLstIndex == 0 ? list.carLst : list.roadLst;
 
 setTimeout(changeVideoFeed, 0)
 
@@ -28,7 +31,7 @@ function changeVideoFeed() {
     // var videoLst = list.videoLst[Math.floor(Math.random() * list.videoLst.length)];
 
     // get next video
-    var videoLst = list.carLst[index++];
+    var videoLst = listToPlay[index++];
     console.log('playing video ' + index);
 
     // add fade-in and fade-out efects to video transitions
@@ -50,10 +53,10 @@ function changeVideoFeed() {
     videoTag.appendChild(source1);
 
     // setup mp4 type
-    var source2 = document.getElementById('source2');
-    source2.setAttribute('src', videoLst.src2);
-    source2.setAttribute('type', 'video/mp4;codecs="avc1.42E01E, mp4a.40.2"');
-    videoTag.appendChild(source2);
+    // var source2 = document.getElementById('source2');
+    // source2.setAttribute('src', videoLst.src2);
+    // source2.setAttribute('type', 'video/mp4;codecs="avc1.42E01E, mp4a.40.2"');
+    // videoTag.appendChild(source2);
 
     // play video
     videoTag.pause();
@@ -64,7 +67,8 @@ function changeVideoFeed() {
     setTimeout(changeVideoFeed, videoLst.length * 1000);
 
     // reset counter at the end of the list
-    if (index == list.carLst.length) {
+    console.log('check reset ' + index + ' of ' + listToPlay.length)
+    if (index == listToPlay.length) {
         console.log('reset play');
         index = 0;
     }
