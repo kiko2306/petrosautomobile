@@ -2,21 +2,21 @@ let index = 0;
 
 const list = {
     carLst: [
-        { src1: './assets/video/car/C1.webm', src2: './assets/video/car/C1.mp4', length: 9 },
-        { src1: './assets/video/car/C2.webm', src2: './assets/video/car/C2.mp4', length: 11 },
-        { src1: './assets/video/car/C3.webm', src2: './assets/video/car/C3.mp4', length: 9 },
-        { src1: './assets/video/car/C4.webm', src2: './assets/video/car/C4.mp4', length: 6 },
-        { src1: './assets/video/car/C5.webm', src2: './assets/video/car/C5.mp4', length: 8 },
-        { src1: './assets/video/car/C6.webm', src2: './assets/video/car/C6.mp4', length: 6 },
-        { src1: './assets/video/car/C7.webm', src2: './assets/video/car/C7.mp4', length: 13 },
-        { src1: './assets/video/car/C8.webm', src2: './assets/video/car/C8.mp4', length: 8 },
-        { src1: './assets/video/car/C9.webm', src2: './assets/video/car/C9.mp4', length: 6 },
-        { src1: './assets/video/car/C10.webm', src2: './assets/video/car/C10.mp4', length: 8 },
-        { src1: './assets/video/car/C11.webm', src2: './assets/video/car/C11.mp4', length: 6 },
+        { src1: './assets/video/CAR/C1.webm', src2: './assets/video/CAR/C1.mp4', length: 9 },
+        { src1: './assets/video/CAR/C2.webm', src2: './assets/video/CAR/C2.mp4', length: 11 },
+        { src1: './assets/video/CAR/C3.webm', src2: './assets/video/CAR/C3.mp4', length: 9 },
+        { src1: './assets/video/CAR/C4.webm', src2: './assets/video/CAR/C4.mp4', length: 6 },
+        { src1: './assets/video/CAR/C5.webm', src2: './assets/video/CAR/C5.mp4', length: 8 },
+        { src1: './assets/video/CAR/C6.webm', src2: './assets/video/CAR/C6.mp4', length: 6 },
+        { src1: './assets/video/CAR/C7.webm', src2: './assets/video/CAR/C7.mp4', length: 13 },
+        { src1: './assets/video/CAR/C8.webm', src2: './assets/video/CAR/C8.mp4', length: 8 },
+        { src1: './assets/video/CAR/C9.webm', src2: './assets/video/CAR/C9.mp4', length: 6 },
+        { src1: './assets/video/CAR/C10.webm', src2: './assets/video/CAR/C10.mp4', length: 8 },
+        { src1: './assets/video/CAR/C11.webm', src2: './assets/video/CAR/C11.mp4', length: 6 },
     ],
     roadLst : [
-        { src1: './assets/video/road/R1.webm', src2: './assets/video/road/R1.mp4', length: 26 },
-        { src1: './assets/video/road/R2.webm', src2: './assets/video/road/R2.mp4', length: 13 },
+        { src1: './assets/video/ROAD/R1.webm', src2: './assets/video/ROAD/R1.mp4', length: 26 },
+        { src1: './assets/video/ROAD/R2.webm', src2: './assets/video/ROAD/R2.mp4', length: 13 },
     ]
 }
 
